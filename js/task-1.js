@@ -7,9 +7,9 @@ function isEnoughCapacity (products, containerSize) {
   
     
     if (totalProducts <= containerSize) {
-      return true; // Всі товари поміщаються
+      return true; 
     } else {
-      return false; // Товарів занадто багато для контейнера
+      return false; 
     }
   }
 
